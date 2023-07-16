@@ -29,9 +29,9 @@ const NavBar: FC<Props> = async ({}) => {
   if (!user) return null;
 
   return (
-    <nav className="w-screen h-16 dark:border-b border-muted bg-background/30 backdrop-blur-md shadow-sm flex fixed top-0 right-0 left-0 transition-colors duration-200 z-50 ">
+    <nav className="w-screen h-16 dark:border-b border-muted bg-background/30 backdrop-blur-md shadow-sm flex fixed top-0 right-0 left-0  z-50 ">
       <div className="flex items-center justify-between px-6 container mx-auto gap-2">
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-4">
           <Link href={"/"}>
             <div className="flex items-center  gap-1 cursor-pointer">
               <GlobeIcon className="h-7 w-7 text-accent-foreground  text-purple-500 pb-[1px]" />

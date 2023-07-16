@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className={`${figtree.className} transition-all duration-200`}>
+        <body className={`${figtree.className} `}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             <NavBar />
             <div className="h-16" />
